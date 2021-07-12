@@ -4,7 +4,7 @@ This is a NodeJS app which uses ExpressJS to perform the OAuth login flow to Ven
 # Setup
 ## Requirements
 ### vend accounts
-You need to create a vend merchant store AND a vend developer account!\
+You need to create a vend merchant store AND a vend developer account!
 - https://www.vendhq.com/ (Select Free Trial)
 - https://developers.vendhq.com/developer/sign-in 
 
