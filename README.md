@@ -24,7 +24,7 @@ Ngrok is a tool that allows secure HTTPS tunneling which is important for the OA
 
 ## Running the app
 ### Step 1: Run ngrok on port 3000
-`ngrok http localhost:3000`
+`ngrok http 3000`
 
 COPY the https ngrok URL into your Vend application "redirect URI" field!\
 You will also need to COPY this URL into the index.js file as described in the next step.
