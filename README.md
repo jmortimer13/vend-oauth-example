@@ -4,11 +4,11 @@ This is a NodeJS app which uses ExpressJS to perform the OAuth login flow to Ven
 # Setup
 ## Requirements
 ### vend accounts
-You need to create a vend merchant store AND a vend developer account!
-https://www.vendhq.com/ (Select Free Trial)
-https://developers.vendhq.com/developer/sign-in 
+You need to create a vend merchant store AND a vend developer account!\
+- https://www.vendhq.com/ (Select Free Trial)
+- https://developers.vendhq.com/developer/sign-in 
 
-You must also make an app to get a clientId and clientSecret.
+You must also make an app to get a clientId and clientSecret.\
 You can fill in a fake URL for the redirect URI, but will need to replace it later in the guide.
 
 ### node
@@ -40,7 +40,7 @@ Look at the `index.js` file and fill in all the REPLACEME instances with your ow
 
 You will see a message that the app is running on port 3000
 
-### Step 4: Perform OAuth sign in\
+### Step 4: Perform OAuth sign in
 - Go to `localhost:3000` in your browser
 - Click `Sign In` and sign in to your mrechant
 - Click `Get Refresh Token` to get a refresh token and your initial access token
