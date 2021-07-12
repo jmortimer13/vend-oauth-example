@@ -67,7 +67,7 @@ app.get('/home', (req, res) => {
                     <pre>    signature : ${signature}</pre>
                     <pre>        error : ${error}</pre>
                     <pre>refresh_token : ${refreshToken}</pre>
-                    <pre>  acess_token : ${accessToken}</pre>
+                    <pre> access_token : ${accessToken}</pre>
                     <script type="text/javascript">
                         function signIn() {
                             window.location.href = '/oauth/sign_in'
