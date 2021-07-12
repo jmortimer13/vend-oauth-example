@@ -23,24 +23,24 @@ Ngrok is a tool that allows secure HTTPS tunneling which is important for the OA
 `brew install --cask ngrok`
 
 ## Running the app
-Step 1: Run ngrok on port 3000\
+### Step 1: Run ngrok on port 3000
 `ngrok http localhost:3000`
 
 COPY the https ngrok URL into your Vend application "redirect URI" field!\
 You will also need to COPY this URL into the index.js file as described in the next step.
 
-Step 2: Update index.js\
+### Step 2: Update index.js
 Look at the `index.js` file and fill in all the REPLACEME instances with your own data
 - clientId (provided by Vend)
 - clientSecret (provided by Vend)
 - redirectURI (ngrok url)
 
-Step 3: Run the app\
+### Step 3: Run the app
 `node index.js`
 
 You will see a message that the app is running on port 3000
 
-Step 4: Perform OAuth sign in\
+### Step 4: Perform OAuth sign in\
 - Go to `localhost:3000` in your browser
 - Click `Sign In` and sign in to your mrechant
 - Click `Get Refresh Token` to get a refresh token and your initial access token
