@@ -1,0 +1,15 @@
+{
+  "name": "vend-oauth-example",
+  "version": "1.0.0",
+  "description": "An express js app for Vend oauth logins",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "jameson.mortimer@lightspeedhq.com",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  }
+}
